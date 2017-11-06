@@ -122,9 +122,12 @@ aside {
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
-
+.work-list ul{
+    margin: 0; padding: 0;
+}
 .work-list li{
     display: inline-block;
+    list-style: none;
     margin: 20px 0 40px 0;
     font-size: 18px;
     font-weight: 300;
