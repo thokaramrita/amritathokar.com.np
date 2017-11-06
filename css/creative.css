@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 hr {
@@ -90,6 +90,7 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+    height: 65px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -103,6 +104,7 @@ aside {
     font-size: 13px;
     font-weight: 700;
     color: #222;
+    line-height: 34px;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -112,7 +114,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #dd7a5b!important;
     background-color: transparent;
 }
 
@@ -121,10 +123,21 @@ aside {
     background-color: transparent;
 }
 
+.work-list li{
+    display: inline-block;
+    margin: 20px 0 40px 0;
+    font-size: 18px;
+    font-weight: 300;
+    padding:0 10px
+}
+.work-list li .fa {
+    padding-left: 17px
+}
+
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        border-color: rgba(255,255,255,.1);
+        background-color: rgba(0,0,0,.1);
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -148,7 +161,8 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: rgba(0,0,0,.3);
+
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -161,10 +175,7 @@ aside {
         color: #eb3812;
     }
 
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
-        color: #222;
-    }
+    
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
