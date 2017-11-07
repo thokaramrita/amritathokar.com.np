@@ -136,15 +136,35 @@ aside {
 .work-list li .fa {
     padding-left: 17px
 }
+.affix-top .navbar-header{
+    display: none;
+
+}
+.affix-top .navbar-nav{
+    margin: 0 auto;
+    float: none !important;
+    width: 20%;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.affix .navbar-nav, .navbar-right{
+
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.1);
         background-color: rgba(0,0,0,.1);
+      
     }
-
+  
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
+
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
